@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Romance</title>
+
+    <style type="text/css">
+        body {
+            height: 125vh;
+            margin-top: px;
+            padding: 30px;
+            background-color: cadetblue;
+            background-size: cover;
+            /* background-image: url("book.jpg"); */
+            font-family: sans-serif;
+            position: relative;
+            margin-bottom: 0px;
+        }
+
+        header {
+            background-color: orange;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 5px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 0 25px 0 black;
+        }
+
+        header * {
+            display: inline;
+        }
+
+        header li {
+            margin: 20px;
+        }
+
+        header li a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        header li a select {
+            background-color: orange;
+            text-decoration: none;
+        }
+
+        header li a select {
+            color: blue;
+            text-decoration: none;
+        }
+
+
+        table *{
+            margin-inline: 135px;
+            text-align: center;
+        }
+
+        /* Footer */
+
+        .footer {
+            position: absolute;
+            bottom:0;
+            left:0;
+            width:100%;
+            height: 90px;
+            background-color: black;
+            color: aliceblue;
+        }
+
+        .footer-text-left {
+            font-size:25px;
+            padding-left:40px;
+            float:left;
+            word-spacing:10px;
+            
+        }
+        .footer-text-left a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        a.menu:hover {
+        background-color: yellow;
+        color: black;
+        font-size:20px;
+        }
+
+        .footer-content-right {
+        padding-right:40px;
+        margin-top:20px;
+        float:right;
+        }
+
+        .icon-style {
+        height:40px;
+        margin-left:20px;
+        margin-top:5px;
+        }
+
+        .icon-style:hover {
+        background-color:white;
+        padding:2px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">
+                    <select onchange="javascript:location.href = this.value;">
+                        <option>--Romance--</option>
+                                <option value="crimethrillers.html">Crime Thrillers</option>
+                                <option value="selfhelp.html">Self-Help</option>
+                                <option value="romance.html">Romance</option>
+                                <option value="sciencefiction.html">Science Fiction</option>
+                                <option value="adventure.html">Adventure</option>
+                                <option value="paranormal.html">Paranormal</option>
+                            </select>
+                    </a>
+                </li>
+                <li><a
+                        href="https://www.google.com/search?q=contact+us&rlz=1C1CHBF_enIN810IN810&oq=contact+us&aqs=chrome..69i57j0i512l5j0i433i512j0i512l3.2890j0j4&sourceid=chrome&ie=UTF-8">Contact
+                        Us</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <h1 align="center" style="color: whitesmoke">Romance</h1>
+    <div align="center">
+        <table align="center">
+            <tr>
+                <td><img src="outlander.jpg" width="200px"></td>
+                <td width="1px"></td>
+                <td><img src="thenotebook.jpg" width="200px"></td>
+            </tr>
+            <tr>
+                <td width="100px" style="text-align: justify; color: darkblue;font-style: italic;font-family: 'Courier New', Courier, monospace;"><b>In Outlander, a 600-page time-travel romance, strong-willed and sensual Claire Randall leads a double life with a husband in one century, and a lover in another. Torn between fidelity and desire, she struggles to understand the pure intent of her heart. But don't let the number of pages and the Scottish dialect scare you. It's one of the fastest reads you'll have in your library.
+                    </b></td>
+                <td width="50px"></td>
+                <td width="100px" style="text-align: justify; color: darkblue;font-style: italic;font-family: 'Courier New', Courier, monospace;"><b>"Somewhere," muses Noah Calhoun, while sitting on his porch in the moonight, "there were people making love." The Notebook, a Southern-fried story of love-lost-and-found-again, revolves around a single time-honored romantic dilemma: will beautiful Allison Nelson stay with Mr. Respectability (to whom she happens to be engaged), or will she choose Noah, the romantic rascal she left so many years ago?
+
+                </b></td>
+            </tr>
+        </table>
+
+        <div class="footer">
+            <p class="footer-text-left">
+                <a href="index.html" class="menu">Home</a>
+                <a href="about.html" class="menu">About Us</a>
+                Call: 98989838292
+              </p>
+    
+              <div class="footer-content-right">
+                <a href="https://github.com/"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" class="icon-style" alt="Github icon"></a>
+                <a href="https://www.twitter.com"><img src="https://www.freeiconspng.com/thumbs/logo-twitter-png/logo-twitter-icon-symbol-0.png" class="icon-style" alt="Twitter icon"></a>
+                <a href="https://www.gmail.com"><img src="gmaillogo.png" class="icon-style" alt="Emailicon"></a>
+              </div>
+        </div>
+
+    
+</body>
+
+</html>

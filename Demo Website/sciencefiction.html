@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Science Fiction</title>
+
+    <style type="text/css">
+        body {
+            height: 125vh;
+            margin-top: px;
+            padding: 30px;
+            background-color: cadetblue;
+            background-size: cover;
+            /* background-image: url("book.jpg"); */
+            font-family: sans-serif;
+            position: relative;
+            margin-bottom: 0px;
+        }
+
+        header {
+            background-color: orange;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 5px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 0 25px 0 black;
+        }
+
+        header * {
+            display: inline;
+        }
+
+        header li {
+            margin: 20px;
+        }
+
+        header li a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        header li a select {
+            background-color: orange;
+            text-decoration: none;
+        }
+
+        header li a select {
+            color: blue;
+            text-decoration: none;
+        }
+
+
+        table *{
+            margin-inline: 135px;
+            text-align: center;
+        }
+
+         /* Footer */
+
+         .footer {
+            position: absolute;
+            bottom:0;
+            left:0;
+            width:100%;
+            height: 90px;
+            background-color: black;
+            color: aliceblue;
+        }
+
+        .footer-text-left {
+            font-size:25px;
+            padding-left:40px;
+            float:left;
+            word-spacing:10px;
+            
+        }
+        .footer-text-left a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        a.menu:hover {
+        background-color: yellow;
+        color: black;
+        font-size:20px;
+        }
+
+        .footer-content-right {
+        padding-right:40px;
+        margin-top:20px;
+        float:right;
+        }
+
+        .icon-style {
+        height:40px;
+        margin-left:20px;
+        margin-top:5px;
+        }
+
+        .icon-style:hover {
+        background-color:white;
+        padding:2px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">
+                    <select onchange="javascript:location.href = this.value;">
+                        <option>--Science Fiction--</option>
+                                <option value="crimethrillers.html">Crime Thrillers</option>
+                                <option value="selfhelp.html">Self-Help</option>
+                                <option value="romance.html">Romance</option>
+                                <option value="sciencefiction.html">Science Fiction</option>
+                                <option value="adventure.html">Adventure</option>
+                                <option value="paranormal.html">Paranormal</option>
+                            </select>
+                    </a>
+                </li>
+                <li><a
+                        href="https://www.google.com/search?q=contact+us&rlz=1C1CHBF_enIN810IN810&oq=contact+us&aqs=chrome..69i57j0i512l5j0i433i512j0i512l3.2890j0j4&sourceid=chrome&ie=UTF-8">Contact
+                        Us</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <h1 align="center" style="color: whitesmoke">Science Fiction</h1>
+    <div align="center">
+        <table align="center">
+            <tr>
+                <td><img src="harrypotter.jpg" width="200px"></td>
+                <td width="1px"></td>
+                <td><img src="got.jpg" width="200px"></td>
+            </tr>
+            <tr>
+                <td width="100px" style="text-align: justify; color: darkblue;font-style: italic;font-family: 'Courier New', Courier, monospace;"><b>Escape to Hogwarts with the unmissable series that has sparked a lifelong reading journey for children and families all over the world. The magic starts here.
+                    Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. The magic starts here!
+                    </b></td>
+                <td width="50px"></td>
+                <td width="100px" style="text-align: justify; color: darkblue;font-style: italic;font-family: 'Courier New', Courier, monospace;"><b>In the first book replete with lust, rage, anger, betrayal and terror, two families take the central position: the Lannisters and the Starks. Will the good prevail over the worse? Or, is the scenario going to be much worse than ever? And, who is this new character Daenerys Targaryen? The adventurous tale of magic, power and supernatural forces promise to sway the readers off their feet till the end.</b></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="footer">
+        <p class="footer-text-left">
+            <a href="index.html" class="menu">Home</a>
+            <a href="about.html" class="menu">About Us</a>
+            Call: 98989838292
+          </p>
+
+          <div class="footer-content-right">
+            <a href="https://github.com/"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" class="icon-style" alt="Github icon"></a>
+            <a href="https://www.twitter.com"><img src="https://www.freeiconspng.com/thumbs/logo-twitter-png/logo-twitter-icon-symbol-0.png" class="icon-style" alt="Twitter icon"></a>
+            <a href="https://www.gmail.com"><img src="gmaillogo.png" class="icon-style" alt="Emailicon"></a>
+          </div>
+    </div>
+
+</div>
+</body>
+
+</html>
